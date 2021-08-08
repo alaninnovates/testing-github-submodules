@@ -1,0 +1,6 @@
+# Project place file
+/test-submodules.rbxl
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock

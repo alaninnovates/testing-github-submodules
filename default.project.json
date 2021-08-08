@@ -1,0 +1,54 @@
+{
+	"name": "test-submodules",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"Common": {
+				"$path": "src/shared"
+			},
+			"Vendor": {
+				"$className": "Folder",
+				"Roact": {
+					"$path": "vendor/roact/src"
+				},
+				"RoactRodux": {
+					"$path": "vendor/roact-rodux/src"
+				},
+				"Rodux": {
+					"$path": "vendor/rodux/src"
+				}
+			}
+		},
+
+		"ServerScriptService": {
+			"Server": {
+				"$path": "src/server"
+			},
+			"Vendor": {
+				"$className": "Folder",
+				"DataStore2": {
+					"$path": "vendor/DataStore2/DataStore2"
+				}
+			}
+		},
+
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"Client": {
+					"$path": "src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$properties": {
+				"FilteringEnabled": true
+			}
+		},
+		"SoundService": {
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}

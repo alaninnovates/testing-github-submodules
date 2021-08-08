@@ -1,0 +1,12 @@
+[submodule "vendor/roact"]
+	path = vendor/roact
+	url = https://github.com/Roblox/roact
+[submodule "vendor/rodux"]
+	path = vendor/rodux
+	url = https://github.com/Roblox/rodux
+[submodule "vendor/roact-rodux"]
+	path = vendor/roact-rodux
+	url = https://github.com/Roblox/roact-rodux
+[submodule "vendor/DataStore2"]
+	path = vendor/DataStore2
+	url = https://github.com/Kampfkarren/Roblox
